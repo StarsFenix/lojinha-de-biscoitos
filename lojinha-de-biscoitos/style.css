@@ -1,0 +1,83 @@
+body {
+    font-family: 'Arial', sans-serif; /* Aplica a fonte Arial no corpo do documento */
+    margin: 0;
+    padding: 0;
+    background-color: #fcd3e0; /* Fundo rosa mais claro */
+}
+
+header {
+    background-color: #ff9eb5; /* Rosa mais claro */
+    color: #ffffff; /* Branco */
+    padding: 15px;
+    text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Comfortaa', cursive; /* Aplica a fonte Comfortaa aos títulos */
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #ffffff; /* Branco */
+    font-weight: bold;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: #99c2ff; /* Azul mais claro */
+    color: #ffffff; /* Branco */
+    text-align: center;
+    padding: 10px; /* Aumentei o padding para dar mais espaço */
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.catalog {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+article {
+    width: 30%;
+    margin-bottom: 20px;
+    background-color: #ffffff; /* Fundo branco para destacar os biscoitos */
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s; /* Adiciona uma transição suave */
+}
+
+article:hover {
+    transform: scale(1.1); /* Aumenta o tamanho em 10% ao passar o mouse */
+}
+
+article h3 {
+    font-family: 'Comfortaa', cursive; /* Altera a fonte do título do catálogo */
+    text-align: center; /* Centraliza o texto */
+}
+
+article img {
+    max-width: 100%;
+    border-radius: 5px;
+}
+
